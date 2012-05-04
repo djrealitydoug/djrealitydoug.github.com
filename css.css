@@ -1,0 +1,73 @@
+body {font-family: sans-serif; font-size: 14pt; background: #80b0e0}
+h1 {text-align: center; margin-top: auto; margin-bottom: auto}
+p {text-align:justify; font-family:sans-serif; margin:0}
+img {margin: 0}
+img.cntr {display: block; margin-left: auto; margin-right: auto}
+img.text_flow {margin-top: 1em}
+
+div.shell {margin: auto; padding: 30px}
+div.body {margin: auto; padding: 15px; color: black; background: #80b0e0; border: black solid thick; max-width:8.5in}
+/*
+tr {border: solid yellow thin}
+div {border: solid red thin}
+img {border: solid orange thin}
+p {border: solid green thin}
+*/
+
+*.clear_left {clear: left}
+*.max_width {width: 100%}
+*.blk_thn_bdr {border: black solid thin}
+
+p.navbar{text-align: center}
+h1.arch {margin-top:1em}
+
+em[class~="form"] {font-style:normal; font-variant: small-caps; font-size: 95%}
+em[class~="b"] {font-weight: bolder; vertical-align:baseline; font-style: normal}
+em[class~="u"] {text-decoration: underline; font-style: normal}
+em[class~="i"] {font-style: italic}
+em[class~="normal"] {font-style: normal}
+em[class~="big_gray"] {color: #ff9; font-weight: bolder; vertical-align:baseline; font-style: normal}
+
+a {font-weight: bolder}
+a:link { color: #060; text-decoration: underline}
+a:visited { color: #006; text-decoration: underline}
+a:hover { color: #900; text-decoration: underline}
+a:active { color: #900; text-decoration: none}
+
+a.black {font-weight: normal}
+a.black:link { color: black; text-decoration: none}
+a.black:visited { color: black; text-decoration: none}
+a.black:hover { color: black; text-decoration: underline}
+a.black:active {color: #900; text-decoration: none}
+
+table.layout_leadsection {border-collapse: collapse; border: none; background: #80b0e0; margin-left:auto; margin-right:auto; margin-top:0}
+table.layout_leadsection td {padding: 0.2in; vertical-align: middle}
+table.layout_leadsection td.slim {padding-bottom: 0}
+p {text-indent: 1em; margin-top:1em}
+p:first-child {text-indent: 0}
+p.no_indent {text-indent: 0}
+*.first_ltr:first-letter {font-size: 1.5em; vertical-align: baseline; line-height: 67%}
+*.no_top_margin {margin-top:0}
+table.layout_leadsection p.caption {font: caption; font-size: 12pt; max-width: 300px; text-indent: 0; margin-top: 0}
+table.layout_leadsection p.caption2 {font: caption; font-size: 12pt; max-width: 300px; text-indent: 0; margin-top: 0; text-align: center}
+table.layout_leadsection p.block_quote {text-indent: 0; font-size: 95%; margin-left: 3em; margin-right: 3em; margin-top:1em; margin-bottom:0}
+
+p.white {border: black solid thin; padding: 0.1in; background: white}
+span.white {background: white}
+
+blockquote.full {text-align:justify}
+blockquote.no_indent {text-indent: 0}
+
+div.right-top { float: right ; padding-bottom: 0.1in; padding-left: 0.25in }
+div.right { float: right ; padding-top: 0.1in; padding-bottom: 0.1in; padding-left: 0.25in }
+div.left-top { float: left; padding-bottom: 0 }
+
+table[class~="layout_copyright"] {border: none; margin-left:auto; margin-right:auto; margin-top:2em; margin-bottom:0}
+table[class~="layout_copyright"] td {padding: 0.02in}
+table[class~="layout_copyright"] p {text-align:center}
+/*table[class~="layout_copyright"] {background: white}*/
+
+table[class~="layout_update"] {border: none; margin-left:auto; margin-right:auto; margin-top:1em; margin-bottom:1em}
+table[class~="layout_update"] td {padding: 0.02in}
+table[class~="layout_update"] p {text-align:center; font: caption; font-size: 12pt;}
+/*table[class~="layout_update"] {background: white}*/
