@@ -7,17 +7,13 @@ img.text_flow {margin-top: 1em}
 
 div.shell {margin: auto; padding: 30px}
 div.body {margin: auto; padding: 15px; color: black; background: #80b0e0; border: black solid thick; max-width:8.5in}
-/*
-tr {border: solid yellow thin}
-div {border: solid red thin}
-img {border: solid orange thin}
-p {border: solid green thin}
-*/
 
 *.clear_left {clear: left}
 *.max_width {width: 100%}
 *.blk_thn_bdr {border: black solid thin}
 *.blck {display: block}
+// *.i-blck {display: inline-block}
+// *.cllps {display: collapse}
 
 p.navbar{text-align: center}
 h1.arch {margin-top:1em}
@@ -56,6 +52,7 @@ table.layout_leadsection p.block_quote {text-indent: 0; font-size: 95%; margin-l
 div.white {border: black solid thin; padding: 0.1in; background: white}
 p.white {border: black solid thin; padding: 0.1in; background: white}
 p.ctr {text-align: center}
+// p.ctrd {margin-left: auto; margin-right: auto; padding: 0; text-align: center}
 span.white {background: white}
 
 blockquote.full {text-align:justify}
@@ -64,6 +61,7 @@ blockquote.no_indent {text-indent: 0}
 div.right-top { float: right ; padding-bottom: 0.1in; padding-left: 0.25in }
 div.right { float: right ; padding-top: 0.1in; padding-bottom: 0.1in; padding-left: 0.25in }
 div.left-top { float: left; padding-bottom: 0 }
+div.ctr {margin-left:auto; margin-right:auto; float: center; padding: 0}
 
 table[class~="layout_copyright"] {border: none; margin-left:auto; margin-right:auto; margin-top:2em; margin-bottom:0}
 table[class~="layout_copyright"] td {padding: 0.02in}
