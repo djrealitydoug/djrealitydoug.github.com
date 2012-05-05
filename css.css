@@ -17,6 +17,7 @@ p {border: solid green thin}
 *.clear_left {clear: left}
 *.max_width {width: 100%}
 *.blk_thn_bdr {border: black solid thin}
+*.blck {display: block}
 
 p.navbar{text-align: center}
 h1.arch {margin-top:1em}
@@ -52,7 +53,9 @@ table.layout_leadsection p.caption {font: caption; font-size: 12pt; max-width: 3
 table.layout_leadsection p.caption2 {font: caption; font-size: 12pt; max-width: 300px; text-indent: 0; margin-top: 0; text-align: center}
 table.layout_leadsection p.block_quote {text-indent: 0; font-size: 95%; margin-left: 3em; margin-right: 3em; margin-top:1em; margin-bottom:0}
 
+div.white {border: black solid thin; padding: 0.1in; background: white}
 p.white {border: black solid thin; padding: 0.1in; background: white}
+p.ctr {text-align: center}
 span.white {background: white}
 
 blockquote.full {text-align:justify}
