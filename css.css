@@ -37,6 +37,12 @@ a.black:visited { color: black; text-decoration: none}
 a.black:hover { color: black; text-decoration: underline}
 a.black:active {color: #900; text-decoration: none}
 
+table.samples {margin-left:auto; margin-right:auto; margin-top:1em}
+table.samples {border:ridge; border-width:medium; border-collapse:collapse}
+table.samples td.head {border:ridge; border-width:medium; border-collapse; font-weight: bolder; text-align:center}
+table.samples td.data {border:ridge; border-width:medium; border-collapse}
+table.samples td.slim {padding-top:0; padding-bottom:0}
+
 table.layout_leadsection {border-collapse: collapse; border: none; background: #80b0e0; margin-left:auto; margin-right:auto; margin-top:0}
 table.layout_leadsection td {padding: 0.2in; vertical-align: middle}
 table.layout_leadsection td.slim {padding-bottom: 0}
