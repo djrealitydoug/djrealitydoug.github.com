@@ -58,7 +58,7 @@ table.layout_leadsection p.block_quote {text-indent: 0; font-size: 95%; margin-l
 div.white {border: black solid thin; padding: 0.1in; background: white}
 p.white {border: black solid thin; padding: 0.1in; background: white}
 p.ctr {text-align: center}
-// p.ctrd {margin-left: auto; margin-right: auto; padding: 0; text-align: center}
+/* p.ctrd {margin-left: auto; margin-right: auto; padding: 0; text-align: center} */
 span.white {background: white}
 
 blockquote.full {text-align:justify}
