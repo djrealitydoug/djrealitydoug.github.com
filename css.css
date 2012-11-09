@@ -11,7 +11,7 @@ div.body {margin: auto; padding: 15px; color: black; background: #80b0e0; border
 *.clear_left {clear: left}
 *.max_width {width: 100%}
 *.blk_thn_bdr {border: black solid thin}
-*.blck {display: block}
+// *.blck {display: block}
 // *.i-blck {display: inline-block}
 // *.cllps {display: collapse}
 
@@ -24,6 +24,9 @@ em[class~="u"] {text-decoration: underline; font-style: normal}
 em[class~="i"] {font-style: italic}
 em[class~="normal"] {font-style: normal}
 em[class~="big_gray"] {color: #ff9; font-weight: bolder; vertical-align:baseline; font-style: normal}
+em[class~="exiting"] {color: #222}
+span[class~="exiting"] {color: white; background: #333; font-size: 90%}
+span[class~="new"] {color: white; background: #333; font-size: 90%}
 
 a {font-weight: bolder}
 a:link { color: #060; text-decoration: underline}
